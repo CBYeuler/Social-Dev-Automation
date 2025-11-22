@@ -2,6 +2,9 @@ from utils.commit_extractor import get_latest_commit_message
 from utils.formatter import clean_commit_message
 from services.openai_client import generate_tweet
 from services.twitter_client import post_tweet
+from dotenv import load_dotenv
+load_dotenv()
+
 
 def main():
     raw_commit = get_latest_commit_message()
