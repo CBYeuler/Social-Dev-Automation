@@ -1,0 +1,1 @@
+Automates my dev presence — takes my latest GitHub commits, turns them into AI-generated posts, and auto-shares them on Twitter/LinkedIn. Build-in-public on autopilot. (checks fail because there are no tokens yet in opanai account)
